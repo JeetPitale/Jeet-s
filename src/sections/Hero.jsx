@@ -44,7 +44,7 @@ const Hero = () => {
                         {userData.name}
                     </h1>
 
-                    <div className="text-xl md:text-3xl font-medium text-gray-600 dark:text-gray-300 mb-8 h-[60px] md:h-auto flex items-center justify-center gap-2">
+                    <div className="text-xl md:text-3xl font-medium text-gray-600 dark:text-gray-300 mb-8 min-h-[80px] md:min-h-0 flex flex-col md:flex-row items-center justify-center gap-2">
                         <span>I am a</span>
                         <TypeAnimation
                             sequence={[
@@ -57,7 +57,7 @@ const Hero = () => {
                             ]}
                             wrapper="span"
                             speed={50}
-                            className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 font-bold"
+                            className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 font-bold text-center"
                             repeat={Infinity}
                         />
                     </div>
