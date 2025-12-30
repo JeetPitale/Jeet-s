@@ -8,9 +8,6 @@ const Footer = () => {
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
                     © {new Date().getFullYear()} {userData.name}. All rights reserved.
                 </p>
-                <p className="text-gray-400 dark:text-gray-600 text-xs mt-2">
-                    Built with React, Tailwind CSS & Framer Motion
-                </p>
             </div>
         </footer>
     );
