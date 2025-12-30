@@ -1,7 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight, Globe } from 'lucide-react';
 import { userData } from '../data';
 
 const Hero = () => {
@@ -75,13 +75,13 @@ const Hero = () => {
                             <ArrowRight className="ml-2 w-5 h-5" />
                         </a>
                         <a
-                            href={userData.social.linkedin}
+                            href="https://www.google.com/search?q=Who+is+Jeet+Pitale"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700 font-semibold rounded-full hover:bg-gray-50 dark:hover:bg-gray-700 transition-all transform hover:-translate-y-1 shadow-lg hover:shadow-xl"
                         >
-                            Resume
-                            <Download className="ml-2 w-5 h-5" />
+                            Google
+                            <Globe className="ml-2 w-5 h-5" />
                         </a>
                     </div>
                 </motion.div>
