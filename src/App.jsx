@@ -5,6 +5,8 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills';
 import Experience from './sections/Experience';
+import Education from './sections/Education';
+import Achievements from './sections/Achievements';
 import Projects from './sections/Projects';
 import Freelancing from './sections/Freelancing';
 import Contact from './sections/Contact';
@@ -24,7 +26,9 @@ function App() {
         <About />
         <Skills />
         <Experience />
+        <Education />
         <Projects />
+        <Achievements />
         <Freelancing />
         <Contact />
       </main>
