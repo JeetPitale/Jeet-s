@@ -72,6 +72,29 @@ export const userData = {
             tech: ["AI", "Travel Tech"],
             github: "https://github.com/JeetPitale/Karvaan",
             demo: "https://karvaan-weld.vercel.app/"
+        },
+    ],
+    freelancing: [
+        {
+            id: 1,
+            title: "Web Development",
+            description: "Custom websites built with modern technologies like React, Next.js, and Tailwind CSS. Fully responsive and performance optimized.",
+            price: "Starting at $200",
+            features: ["Responsive Design", "SEO Optimization", "Fast Loading", "Source Code Included"]
+        },
+        {
+            id: 2,
+            title: "Full Stack App",
+            description: "Complete web applications with secure backend, database integration, and user authentication.",
+            price: "Starting at $500",
+            features: ["Secure Authentication", "Database Design", "API Integration", "Admin Dashboard"]
+        },
+        {
+            id: 3,
+            title: "UI/UX Design",
+            description: "Modern, intuitive, and accessible designs. Prototypes and high-fidelity mockups created in Figma.",
+            price: "Starting at $100",
+            features: ["User Research", "Wireframing", "Prototyping", "Design System"]
         }
     ]
 };
