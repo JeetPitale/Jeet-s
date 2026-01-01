@@ -7,7 +7,7 @@ export const userData = {
     email: "jeetdipakpitale1107@gmail.com",
     social: {
         github: "https://github.com/JeetPitale",
-        linkedin: "https://linkedin.com/in/", // Placeholder
+        linkedin: "https://www.linkedin.com/in/jeet-pitale",
         instagram: "https://www.instagram.com/sketchingcode/",
     },
     about: {
