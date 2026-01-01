@@ -38,7 +38,7 @@ export const userData = {
             id: 2,
             role: "Developer",
             company: "University LMS Project",
-            period: "Present",
+            period: "2026",
             description: "Contributing to the development of a university-level Learning Management System (LMS) designed to support structured, scalable, and user-friendly digital learning."
         },
         {
@@ -124,19 +124,19 @@ export const userData = {
     projects: [
         {
             id: 1,
-            title: "GreenGo Crop Helper",
-            description: "An AgriTech platform empowering farmers with crop planning, soil health management, and real-time alerts.",
-            tech: ["AgriTech", "AI", "Full Stack"],
-            github: "https://github.com/JeetPitale/GreenGoCropHelper",
-            demo: "https://green-go-crop-helper-delta.vercel.app/"
-        },
-        {
-            id: 2,
             title: "Learniverse (HOD Project)",
             description: "A modern educational platform built with React and PHP featuring dynamic content management and community engagement.",
             tech: ["React", "PHP", "MySQL"],
             github: "https://github.com/JeetPitale/HOD_Project",
             demo: "https://vishaldahiya.cs.in/"
+        },
+        {
+            id: 2,
+            title: "ClassFlow LMS",
+            description: "A comprehensive Learning Management System streamlining education with course management, real-time analytics, and secure authentication.",
+            tech: ["React", "PHP", "MySQL", "Tailwind CSS"],
+            github: "https://github.com/JeetPitale/ClassFlow",
+            demo: "https://classflow-backend-jeet.azurewebsites.net/"
         },
         {
             id: 3,
