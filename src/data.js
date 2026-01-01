@@ -136,7 +136,7 @@ export const userData = {
             description: "A comprehensive Learning Management System streamlining education with course management, real-time analytics, and secure authentication.",
             tech: ["React", "PHP", "MySQL", "Tailwind CSS"],
             github: "https://github.com/JeetPitale/ClassFlow",
-            demo: "https://classflow-backend-jeet.azurewebsites.net/"
+            demo: "https://class-flow-two.vercel.app/"
         },
         {
             id: 3,
